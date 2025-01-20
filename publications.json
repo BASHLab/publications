@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Title of Paper 1",
+        "authors": "Author 1, Author 2",
+        "date": "2023",
+        "venue": "Conference ABC",
+        "tags": ["conference"],
+        "link": "https://example.com/paper1"
+    },
+    {
+        "title": "Title of Paper 2",
+        "authors": "Author A, Author B",
+        "date": "2024",
+        "venue": "Journal XYZ",
+        "tags": ["journal"],
+        "link": "https://example.com/paper2"
+    }
+]
