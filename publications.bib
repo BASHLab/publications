@@ -7,15 +7,27 @@
 }
 
 % 2025
-@inproceedings{biswas2025raven,
-  author = {{Subrata Biswas} and Khan, Mohammad Nur Hossain and {Bashima Islam}},
-  booktitle = {Empirical Methods in Natural Language Processing {(EMNLP)}, 2025 (Main Conference).},
-  journal = {Empirical Methods in Natural Language Processing (EMNLP) (Main Conference)},
-  note = {Acceptance Rate: 17.35\%},
-  title = {RAVEN: Representational Alignment of Audio, Video, Embedded Sensors and Natural Language},
-  url = {https://bashlab.github.io/raven_project/},
-  year = {2025}
+@inproceedings{biswas-etal-2025-raven,
+    title = "{RAVEN}: Query-Guided Representation Alignment for Question Answering over Audio, Video, Embedded Sensors, and Natural Language",
+    author = "Biswas, Subrata  and
+      Khan, Mohammad Nur Hossain  and
+      Islam, Bashima",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.96/",
+    doi = "10.18653/v1/2025.emnlp-main.96",
+    pages = "1868--1894",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Multimodal question answering (QA) often requires identifying which video, audio, or sensor tokens are relevant to the question. Yet modality disagreements are common: off-camera speech, background noise, or motion outside the field of view often mislead fusion models that weight all streams equally. We present RAVEN, a unified QA architecture whose core is QuART, a query-conditioned cross-modal gating module that assigns scalar relevance scores to each token across modalities, enabling the model to amplify informative signals and suppress distractors before fusion. RAVEN is trained through a three-stage pipeline comprising unimodal pretraining, query-aligned fusion, and disagreement-oriented fine-tuning - each stage targeting a distinct challenge in multi-modal reasoning: representation quality, cross-modal relevance, and robustness to modality mismatch. To support training and evaluation, we release AVS-QA, a dataset of 300K synchronized Audio-Video-Sensor streams paired with automatically generated question-answer pairs. Experimental results on seven multi-modal QA benchmarks - including egocentric and exocentric tasks - show that RAVEN achieves up to 14.5{\%} and 8.0{\%} gains in accuracy compared to state-of-the-art multi-modal large language models, respectively. Incorporating sensor data provides an additional 16.4{\%} boost, and the model remains robust under modality corruption, outperforming SOTA baselines by 50.23{\%}. Our code and dataset are available at https://github.com/BASHLab/RAVEN."
 }
+
 @inproceedings{khan2025mindfulness,
   author = {{Mohammad Nur Hossain Khan}, and creswell, David and Albert, Jordan and O'Connell, Patrick and Fallon, Shawn and Polowitz, Mathew and Xu, Xuhai orson and Islam, Bashima},
   booktitle = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp)},
