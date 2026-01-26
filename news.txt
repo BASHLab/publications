@@ -1,3 +1,4 @@
+Our paper "OWL : Geometry-Aware Spatial Reasoning for Audio Large Language Models" got accepted in ICLR 2026. 
 Our paper "QUADS: Quantized Distillation Framework for Efficient Speech Language Understanding" got accepted in Interspeech 2025. 
 Our paper "FATE: A Fourier Accelerated Tensor Engine for Neural Networks" got accepted in MWSCAS 2025.  
 Received Gift Money from Wadsworth Acoustic Laboratory ($9K).
